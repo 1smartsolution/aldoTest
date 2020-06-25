@@ -1,0 +1,24 @@
+{
+  "name": "@template/main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.9.3",
+    "@reduxjs/toolkit": "^1.2.1",
+    "@types/react": "^16.8.6",
+    "babel-polyfill": "^6.26.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.24.2"
+  },
+  "scripts": {
+    "start": "parcel public/index.html --open",
+    "build": "parcel build public/index.html"
+  }
+}
