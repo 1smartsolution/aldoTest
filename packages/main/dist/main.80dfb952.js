@@ -9724,7 +9724,7 @@ var _marked = /*#__PURE__*/_regenerator.default.mark(watchGetTweets),
 
 var callBackend = function callBackend(_ref) {
   var page = _ref.page;
-  return page === 'dtTweets' ? _axios.default.get("http://servicesNode.1smartsolution.com/testAPI?type=tweets&user=realDonaldTrump") : _axios.default.get("http://servicesNode.1smartsolution.com/testAPI?type=tweets&user=hillaryClinton");
+  return page === 'dtTweets' ? _axios.default.get("https://aldotest.herokuapp.com/testAPI?type=tweets&user=realDonaldTrump") : _axios.default.get("https://aldotest.herokuapp.com/testAPI?type=tweets&user=hillaryClinton");
 };
 
 function watchGetTweets(_ref2) {

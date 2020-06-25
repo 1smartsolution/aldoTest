@@ -4,8 +4,8 @@ import { tweetsActions } from '.';
 
 const callBackend = ({page}) => {
   return page === 'dtTweets'
-    ? axios.get(`http://servicesNode.1smartsolution.com/testAPI?type=tweets&user=realDonaldTrump`)
-    : axios.get(`http://servicesNode.1smartsolution.com/testAPI?type=tweets&user=hillaryClinton`);
+    ? axios.get(`https://aldotest.herokuapp.com/testAPI?type=tweets&user=realDonaldTrump`)
+    : axios.get(`https://aldotest.herokuapp.com/testAPI?type=tweets&user=hillaryClinton`);
 }
 
 export function* watchGetTweets({payload}) {
